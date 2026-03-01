@@ -25,15 +25,6 @@ public class LectureDemo13 {
             System.out.println("------------------------------------");
         }
 
-        System.out.println("\n=== LECTURER DATA ===");
-        for (Lecture13 l : arrayOfLecture) {
-            System.out.println("Code   : " + l.code);
-            System.out.println("Name   : " + l.name);
-            System.out.println("Gender : " + (l.gender ? "Male" : "Female"));
-            System.out.println("Age    : " + l.age);
-            System.out.println("------------------------------------");
-        }
-
         DatLecture13 data = new DatLecture13();
         data.dataAllDosen(arrayOfLecture);
         data.numberOfLecturersPerGender(arrayOfLecture);
